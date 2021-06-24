@@ -1,0 +1,56 @@
+
+@font-face {
+    font-family: 'InfinitySans-RegularA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.partitle{
+    font-size: 1.3em;
+}
+
+#img1{
+    cursor: zoom-in;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 30px;
+    margin-left: 110px;
+    margin-right: 10px;
+}
+
+figcaption{
+    font-weight: bold;
+    text-align: center;
+}
+
+#par1{
+    font-family:'InfinitySans-RegularA1';
+    line-height: 1cm;
+    font-size: 1em;
+    padding-left: 60px;
+    width:600px;
+    float:left;
+}
+
+#img2{
+    cursor: zoom-in;
+    margin-top:50px;
+    margin-right: 100px;
+    margin-left: 200px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; 
+}
+
+#par2{
+    font-family:'InfinitySans-RegularA1';
+    line-height: 1cm;
+    font-size: 1em;
+    margin: 60px;
+    width:600px;
+}
+
+

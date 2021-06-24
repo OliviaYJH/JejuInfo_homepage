@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'InfinitySans-RegularA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h3{
+    font-size: 1.3em;
+    margin: 10px;
+    padding:5px;
+}
+p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.liststyle{
+    font-family: 'InfinitySans-RegularA1';
+    padding-left: 10px;
+}
+.liststyle:active{
+    color: yellow;
+}
+img{
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+    margin-left: 110px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+tr td{
+    line-height: 1cm;
+    font-size: 1em;
+    font-family: 'InfinitySans-RegularA1';
+}
+
+
+

@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'WandohopeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/WandohopeB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Wemakeprice-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Wemakeprice-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: rgb(244, 252, 253);
+}
+h1{
+    text-align: center;
+    font-size: 3.5em;
+    top:0;
+    margin: 20px;
+    font-family: 'Wemakeprice-Bold';
+}
+.header{
+    margin: 20px;
+}
+.home{ /* 첫 페이지 이동 */
+    cursor: pointer;
+    position:relative;
+    top: 10px;
+    margin: 20px;
+    font-family: 'WandohopeB';
+    font-size: 1.5em;
+}
+.box{ /* 제목과 내용 구분선 */
+    height: 3px;
+    background-color: blue;
+    position: relative;
+    align-items: center;
+
+}
+.menu{ /* 메뉴 */
+    border: 1px solid black;
+    float:left;
+    font-size: 1.1em;
+    font-family: 'Wemakeprice-Bold';
+    list-style-type: none;
+    margin: 10px;
+    width: 200px;
+    line-height: 3em;
+}
+.mouseon:hover{
+    cursor: pointer;
+    background-color: yellow;
+    width: fit-content;
+    height: fit-content;
+    border: blue dashed ;
+}
+.homepagefoot{
+    clear: both;
+    text-align: center;
+}
