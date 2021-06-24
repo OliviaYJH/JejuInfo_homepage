@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제주도 여기저기 - 공지사항</title>
+    <link rel="stylesheet" href="css/both.css">
+    <link rel="stylesheet" href="css/Notice.css">
+</head>
+<body>
+    <header class="header">
+        <a class = "home" onclick="location.href = 'index.html'">제주도 여기저기</a><br> <!--클릭시 homepage 화면으로--> 
+        <h1 class="title">공지사항</h1>
+        <div class="box"></div><br> <!--선-->
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li class="mouseon"><a onclick="location.href = 'JEJUINFO.html'">About 제주도</a></li>
+            <li class="mouseon"><a onclick="location.href = 'TouristInfo.html'">관광지</a></li>
+            <li class="mouseon"><a onclick="location.href='HelpInfo.html'">고객센터</a></li>
+            <li class="mouseon"><a onclick="location.href='Notice.html'">공지사항</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <ul>
+            <div id="listname">
+                <li>내용<span>날짜</span></li>
+            </div>
+            <li>
+                <a>'제주도 여기저기'가 새롭게 열었습니다&nbsp;<input type="button" id="no1button" value="자세히보기" onclick="display1();"></a><span>2021-06-01</span>
+                <div id="no1" class="detail">
+                    <h3>'제주도 여기저기'가 2021년 6월 1일 새롭게 열었습니다.</h3>
+                    <p>앞으로 'About 제주도'와 '관광지' 페이지에 새로운 내용들이 추가될 예정입니다. 
+                        <br>많은 관심 부탁드립니다.</p>
+                </div>
+            </li>
+            <li>
+                <a>'About 제주도'에 제주도에 대한 설명이 업데이트 되었습니다&nbsp;<input type="button" id="no2button" value="자세히보기" onclick="display2();"></a><span>2021-06-02</span>
+                <div id="no2" class="detail">
+                    <h3>'About 제주도'에 제주도에 대한 설명이 업데이트 되었습니다</h3>
+                    <p>'About 제주도'에 제주도의 지형과 기후, 산업과 관광 자원 등에 대한 내용을 업데이트 했습니다.
+                        <br>곧 '관광지'에 새로운 내용이 추가될 예정입니다. 많은 관심 부탁드립니다.</p>
+                </div>
+            </li>
+            <li>
+                <a>'관광지'에 새로운 제주도 관광 명소들이 업데이트 되었습니다&nbsp;</a><input type="button" id="no3button" value="자세히보기" onclick="display3();"><span>2021-06-04</span>
+                <div id="no3" class="detail">
+                    <h3>'관광지'에 새로운 제주도 관광 명소들이 업데이트 되었습니다.</h3>
+                    <p>'관광지'에 한라산과 성산일출봉, 섭지코지, 만장굴 등 여러 관광 명소들이 추가되었습니다. 
+                        <br>많은 관심 부탁드립니다</p>
+                </div>
+            </li>
+            <li>
+                <a>추천하고 싶은 관광지가 있다면 '고객센터'에 요청해주세요&nbsp;<input type="button" id="no4button" value="자세히보기" onclick="display4();"></a><span>2021-06-05</span>
+                <div id="no4" class="detail">
+                    <h3>추천하고 싶은 관광지가 있다면 '고객센터'에 요청해주세요</h3>
+                    <p>'고객센터' 페이지가 생성되었습니다.<br>
+                         추천하고 싶은 관광지가 있다면 '고객센터' 페이지에 장소, 주소, 요청 이유와 이미지 첨부를 하시면 됩니다</p>
+                </div>
+            </li>
+        </ul>
+    </article>
+
+    <hr style="clear:both;">
+    <footer>
+        <p class = homepagefoot> &#169; 2021 Allrights Reserved | Designed by 유정현</p>
+    </footer>
+
+    <script src="js/Notice.js"></script>
+</body>
+</html>
