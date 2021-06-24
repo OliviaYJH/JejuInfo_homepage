@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제주도 여기저기 - About 제주도</title>
+    <link rel="stylesheet" href="css/JEJUINFO.css">
+    <link rel="stylesheet" href="css/both.css">
+    
+</head>
+<body>
+    <header class="header">
+        <a class = "home" onclick="location.href = 'index.html'">제주도 여기저기</a><br> <!--클릭시 homepage 화면으로--> 
+        <h1 class="title">About 제주도</h1>
+        <div class="box"></div><br> <!--선-->
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li class="mouseon"><a onclick="location.href = 'JEJUINFO.html'">About 제주도</a></li>
+            <li class="mouseon"><a onclick="location.href = 'TouristInfo.html'">관광지</a></li>
+            <li class="mouseon"><a onclick="location.href='HelpInfo.html'">고객센터</a></li>
+            <li class="mouseon"><a onclick="location.href='Notice.html'">공지사항</a></li>
+        </ul>
+    </nav>
+
+    <article>
+            <figure> <!--figure, figcation요소 사용-->
+                <table> <!--표 이용-->
+                    <tr>
+                        <!--마우스의 위치에 따라 이미지 크기 변화-->
+                        <td><img src="https://cdn.pixabay.com/photo/2016/08/15/06/04/jeju-island-falls-cheonjeyeon-1594588_960_720.jpg" 
+                            id="img1" onmouseover="big1();" onmouseout="small1();"><figcaption>천제연폭포</figcaption></td>
+                        <td><div id="par1">
+                            <section>
+                                <div class="partitle">제주도 지형</div>
+                                제주도는 대한민국에서 가장 큰 섬이며 세계적으로 유명한 화산섬이다. 화산 활동으로 생긴 오름, 주상절리, 용암 동굴, 현무암 지대 등은 제주도의 지형적 특징을 잘 보여준다.<br><br>
+                            </section>
+                            <section>
+                            <div class="partitle">제주도 기후</div>
+                                제주도는 남쪽에 위치해 있고, 난류의 영향을 받아 연중 온난하고 기온의 연교차도 적은 해양성기후를 나타낸다. 제주도는 바람이 많이 불기 때문에 경작지 주변에 바람막이 숲을 심기도 했다. 식생은 난대림대에 속하지만 고도에 따라서 다양한 식물상을 나타낸다. 
+                            </section>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td id="par2">
+                            <section>
+                            <div class="partitle">제주도 산업</div>
+                                제주도는 현무암으로 이루어진 섬이다. 따라서 빗물이 지하로 스며들기 때문에 논을 만들기 어렵다. 따라서 경지의 대부분은 밭으로 이용되고 있다.<br><br>
+                            </section>
+                            <section>
+                            <div class="partitle">제주도 관광 자원</div>
+                                제주도에는 자연, 인문, 문화 등 다양한 관광 자원이 있다. 한라산 국립 공원, 용암 동굴, 해수욕장, 폭포, 기생 화산등의 자연 경관, 방언과 풍속 등의 문화 경관, 대규모 목장과 감귤밭 등이 있다. 
+                            </section>
+                        </td>
+                        <!--마우스의 위치에 따라 이미지 크기 변화-->
+                        <td><img src="https://cdn.pixabay.com/photo/2015/09/08/11/07/jeju-929775_960_720.jpg" 
+                            id="img2" onmouseover = "big2();" onmouseout="small2();"><figcaption>추자도</figcaption></td>
+                    </tr>
+                </table>
+            </figure>
+    </article>
+
+    <hr style="clear:both;"> <!--float 속성 해제-->
+    <footer>
+        <p class = homepagefoot> &#169; 2021 Allrights Reserved | Designed by 유정현</p>
+    </footer>
+
+    <script> 
+        var pic1 = document.getElementById("img1");
+        var pic2 = document.getElementById("img2");
+
+        function big1(){
+            pic1.style.width = "300px";
+            pic1.style.height = "300px";
+        }
+
+        function small1(){
+            pic1.style.width = "250px";
+            pic1.style.height = "250px";
+        }
+
+        function big2(){
+            pic2.style.width = "300px";
+            pic2.style.height = "300px";
+        }
+
+        function small2(){
+            pic2.style.width = "250px";
+            pic2.style.height = "250px";
+        }
+    </script>
+</body>
+</html>

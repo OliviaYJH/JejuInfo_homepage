@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제주도 여기저기 - 고객센터</title>
+    <link rel="stylesheet" href="css/both.css">
+    <link rel="stylesheet" href="css/HelpInfo.css">
+</head>
+<body>
+    <header class="header">
+        <a class = "home" onclick="location.href = 'index.html'">제주도 여기저기</a><br> <!--클릭시 homepage 화면으로--> 
+        <h1 class="title">고객 센터</h1>
+        <div class="box"></div><br> <!--선-->
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li class="mouseon"><a onclick="location.href = 'JEJUINFO.html'">About 제주도</a></li>
+            <li class="mouseon"><a onclick="location.href = 'TouristInfo.html'">관광지</a></li>
+            <li class="mouseon"><a onclick="location.href='HelpInfo.html'">고객센터</a></li>
+            <li class="mouseon"><a onclick="location.href='Notice.html'">공지사항</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <p style="font-size: 1.5em;">&nbsp; 요청하고 싶은 관광지를 알려주세요</p>
+        <div id="new">
+            <form action="HelpInfo.php" method="GET">
+                장소: <input type="text" name="place" size="100"><br>
+                주소: <input type="text" name="location" size="100"><br>
+                요청 이유:<br>
+                <textarea name="why" rows="8" cols="100"></textarea><br>
+                사진 첨부:<br>
+                <input type="file" name="img"><br>
+                <div id="button_group"> <!--onclick 동적 처리 이용-->
+                    <button type="submit" onclick="alert('저장되었습니다');">저장</button>
+                    <button type="reset" onclick="alert('취소되었습니다');">취소</button>
+                </div>
+            </form>
+        </div>
+    </article>
+
+    <hr style="clear:both;">
+    <footer>
+        <p class = homepagefoot> &#169; 2021 Allrights Reserved | Designed by 유정현</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/both.css">
+    <title>제주도 여기저기</title>
+</head>
+<body>
+    <div id = "homepagebackground"> <!--홈페이지-->
+    <header>
+        <h3>제주도 여기저기</h3> 
+    </header>
+
+    <nav> <!--메뉴-->
+        <ul id="homemenu">
+            <li class="mouseon"><a onclick="location.href = 'JEJUINFO.html'">About 제주도</a></li>
+            <li class="mouseon"><a onclick="location.href = 'TouristInfo.html'">관광지</a></li>
+            <li class="mouseon"><a onclick="location.href='HelpInfo.html'">고객센터</a></li>
+            <li class="mouseon"><a onclick="location.href='Notice.html'">공지사항</a></li>
+        </ul>
+    </nav>
+
+    <article> <!--홈페이지 간략 설명-->
+        <p id = "infohomepage">
+            오신것을 환영합니다<br>
+            제주도의 다양한 관광지를 소개합니다<br>
+            <input type="button" id="watchbutton" value="관련 영상 시청(더블 클릭하세요)" ondblclick="watchJEJU();"> <!--더블 클릭시 관련 영상으로 이동-->
+        </p><br>
+    </article>
+    </div>
+
+    <hr>
+    <footer>
+        <p class = homepagefoot> &#169; 2021 All 
+            Rights Reserved | Designed by 유정현</p>
+    </footer>
+    
+    <script>
+        function watchJEJU(){
+            window.location = 'https://www.youtube.com/watch?v=rzI82MBcGxo';
+        }
+    </script>
+    
+</body>
+</html>
