@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'WandohopeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/WandohopeB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Wemakeprice-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Wemakeprice-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h3{
+    margin: 20px;
+    font-size: 6em;
+    text-align: center;
+    font-family: 'WandohopeB';
+}
+
+#homemenu{
+    font-size: 1.4em;
+    font-family: 'Wemakeprice-Bold';
+    list-style-type: none;
+    line-height: 3em;
+}
+
+#homepagebackground{
+    background-image: url("https://cdn.pixabay.com/photo/2019/10/30/07/43/jeju-4588910_960_720.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#infohomepage{
+    line-height: 2cm;
+    text-align: center;
+    font-family: 'Wemakeprice-Bold';
+    font-size: 2.5vw;
+    color:white;
+}
+
+#watchbutton{
+    font-family: 'Wemakeprice-Bold';
+    font-size: 1.2vw;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+
