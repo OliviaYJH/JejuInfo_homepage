@@ -1,2 +1,6 @@
 # JejuInfo_homepage
-simple information homepage about Jeju
+간단한 제주도 홈페이지 
+
+HTML, CSS, JAVASCRIPT 이용
+
+
